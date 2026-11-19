@@ -1,0 +1,96 @@
+{
+  "overview": {
+    "sessions": 240,
+    "turns": 552,
+    "spans": 2008,
+    "input_tokens": "558432",
+    "output_tokens": "34863"
+  },
+  "detectors": [
+    {
+      "detector": "unsupported_claim",
+      "flagged_sessions": 5,
+      "query_ms": 66,
+      "seeded": 5,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "missed_sessions": [],
+      "false_alarms": []
+    },
+    {
+      "detector": "bad_tool_call",
+      "flagged_sessions": 24,
+      "query_ms": 74,
+      "seeded": 24,
+      "tp": 24,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "missed_sessions": [],
+      "false_alarms": []
+    },
+    {
+      "detector": "lost_context",
+      "flagged_sessions": 19,
+      "query_ms": 45,
+      "seeded": 19,
+      "tp": 19,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "missed_sessions": [],
+      "false_alarms": []
+    },
+    {
+      "detector": "missed_escalation",
+      "flagged_sessions": 15,
+      "query_ms": 75,
+      "seeded": 15,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "missed_sessions": [],
+      "false_alarms": []
+    },
+    {
+      "detector": "over_escalation",
+      "flagged_sessions": 18,
+      "query_ms": 149,
+      "seeded": 12,
+      "tp": 12,
+      "fp": 6,
+      "fn": 0,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "missed_sessions": [],
+      "false_alarms": [
+        "sess-0045",
+        "sess-0074",
+        "sess-0082",
+        "sess-0094",
+        "sess-0115",
+        "sess-0176"
+      ]
+    },
+    {
+      "detector": "policy_violation",
+      "flagged_sessions": 15,
+      "query_ms": 105,
+      "seeded": 15,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "missed_sessions": [],
+      "false_alarms": []
+    }
+  ]
+}

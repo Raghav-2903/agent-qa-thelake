@@ -1,0 +1,4 @@
+opentelemetry-sdk>=1.45
+opentelemetry-exporter-otlp-proto-http>=1.45
+requests>=2.31
+openai>=1.40   # only for --model <real model>

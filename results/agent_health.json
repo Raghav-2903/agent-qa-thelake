@@ -1,0 +1,1 @@
+{"columns":["metric","value"],"rows":[["LLM calls per turn","1.82"],["tokens per session (avg in / out)","2327.0 / 145.0"],["tool error rate: escalate_to_human","0 / 57"],["tool error rate: get_refund_policy","0 / 79"],["tool error rate: issue_refund","11 / 82"],["tool error rate: lookup_order","13 / 234"],["turn latency p50 / p95 (ms)","1811.0 / 4351.0"]],"row_count":7}
